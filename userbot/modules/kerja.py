@@ -91,7 +91,7 @@ async def typewriter(typew):
 
 
 # Create by myself @JejakCheat
-@register(outgoing=True, pattern='^.ovo(?: |$)(.*)')
+@register(outgoing=True, pattern='^.ovo2(?: |$)(.*)')
 async def typewriter(typew):
 	message = typew.pattern_match.group(0)
 	sleep(0)
@@ -99,19 +99,38 @@ async def typewriter(typew):
 	sleep(2)
 	await typew.edit("`Payment Via OVO YA`")
 	sleep(1)
-	await typew.edit("`OVO :`082247870713 `A/N NI KETUT SUERTI` \nSertakan Bukti Transfer Ya (Wajib) Untuk melanjutkan transaksi \n#SenturyBot")
-
+	await typew.edit("`OVO : `081238741086 `A/N NI Endang` \nSertakan Bukti Transfer Ya (Wajib) Untuk melanjutkan transaksi \n#SenturyBot")
 
 # Create by myself @JejakCheat
-@register(outgoing=True, pattern='^.dana(?: |$)(.*)')
+@register(outgoing=True, pattern='^.ovo1(?: |$)(.*)')
 async def typewriter(typew):
 	message = typew.pattern_match.group(0)
 	sleep(0)
 	await typew.edit("`Hai Halo Bosku`")
 	sleep(2)
-	await typew.edit("`Payment Via DANA YA`")
+	await typew.edit("`Payment Via OVO YA`")
 	sleep(1)
-	await typew.edit("`DANA :`082247870713` A/N Jefanya Efandchris` \nSertakan Bukti Transfer Ya (Wajib) Untuk melanjutkan transaksi \n#SenturyBot")
+	await typew.edit("`OVO : `08126264712 `A/N NI Alfry` \nSertakan Bukti Transfer Ya (Wajib) Untuk melanjutkan transaksi \n#SenturyBot")
+# Create by myself @JejakCheat
+@register(outgoing=True, pattern='^.bri(?: |$)(.*)')
+async def typewriter(typew):
+	message = typew.pattern_match.group(0)
+	sleep(0)
+	await typew.edit("`Hai Halo Bosku`")
+	sleep(2)
+	await typew.edit("`Payment Via BRI YA`")
+	sleep(1)
+	await typew.edit("`BRI : `061201012019503` A/N Nike` \nSertakan Bukti Transfer Ya (Wajib) Untuk melanjutkan transaksi \n#SenturyBot")
+# Create by myself @JejakCheat
+@register(outgoing=True, pattern='^.paypal(?: |$)(.*)')
+async def typewriter(typew):
+	message = typew.pattern_match.group(0)
+	sleep(0)
+	await typew.edit("`Hai Halo Bosku`")
+	sleep(2)
+	await typew.edit("`Payment Via PAYPAL YA`")
+	sleep(1)
+	await typew.edit("`Paypal : `vcsakun114@gmail.com` INDO` \nSertakan Bukti Transfer Ya (Wajib) Untuk melanjutkan transaksi \n#SenturyBot")
 
 
 # Create by myself @JejakCheat
